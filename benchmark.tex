@@ -1,0 +1,27 @@
+\section*{Результаты работы}
+
+\subsection*{Сборка и запуск}
+\begin{verbatim}
+PS C:\OSi\lab2> mingw32-make
+gcc -Wall -Wextra -Iinc -o parent.exe src/parent.c src/common.c src/platform_win.c
+gcc -Wall -Wextra -Iinc -o child.exe src/child.c src/common.c
+PS C:\OSi\lab2> .\parent.exe
+Enter filename: result.txt
+Enter numbers (space-separated): 1 5 4 2 4 2.3
+Parent received sum: 18.30
+Child finished.
+\end{verbatim}
+
+\subsection*{Содержимое файла result.txt}
+\begin{verbatim}
+Sum: 18.30
+\end{verbatim}
+
+\subsection*{Диагностика через Process Monitor}
+Для подтверждения работы системных вызовов использовался Process Monitor (ProcMon). В логах зафиксированы события:
+\begin{itemize}
+    \item \texttt{CreateFile} — создание анонимных каналов.
+    \item \texttt{Process Create} — запуск дочернего процесса \texttt{child.exe}.
+    \item \texttt{WriteFile} — запись чисел родителем в канал.
+    \item \texttt{ReadFile} — чтение результата родителем из канала.
+\end{itemize}

@@ -1,0 +1,31 @@
+\section*{Ключевые фрагменты кода}
+
+\subsection*{Создание каналов и настройка наследования}
+\begin{lstlisting}[language=C]
+if (create_pipe_pair(&pipe1_read, &pipe1_write) != 0) handle_error("pipe1");
+if (create_pipe_pair(&pipe2_read, &pipe2_write) != 0) handle_error("pipe2");
+
+#ifdef _WIN32
+SetHandleInformation(pipe1_write, HANDLE_FLAG_INHERIT, 0);
+SetHandleInformation(pipe2_read, HANDLE_FLAG_INHERIT, 0);
+#endif
+
+process_info_t child = spawn_child("child.exe", filename, pipe1_read, pipe2_write);
+\end{lstlisting}
+
+\subsection*{Перенаправление потоков в Windows}
+\begin{lstlisting}[language=C]
+si.hStdInput = child_stdin;   // pipe1_read
+si.hStdOutput = child_stdout; // pipe2_write
+si.dwFlags |= STARTF_USESTDHANDLES;
+CreateProcess(NULL, cmdline, NULL, NULL, TRUE, 0, NULL, NULL, &si, &pi);
+\end{lstlisting}
+
+\subsection*{Подсчет суммы в дочернем процессе}
+\begin{lstlisting}[language=C]
+while (scanf("%f", &value) == 1) {
+    sum += value;
+}
+fprintf(file, "Sum: %.2f\n", sum);
+printf("%.2f\n", sum);
+\end{lstlisting}
