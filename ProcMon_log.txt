@@ -1,0 +1,49 @@
+11:24:03,6724311	parent.exe	40504	CreateFile	C:\Windows\Prefetch\PARENT.EXE-A9BAD852.pf	SUCCESS	Desired Access: Generic Read, Disposition: Open, Options: Synchronous IO Non-Alert, Attributes: n/a, ShareMode: None, AllocationSize: n/a, OpenResult: Opened
+11:24:03,6732036	parent.exe	40504	CloseFile	C:\Windows\Prefetch\PARENT.EXE-A9BAD852.pf	SUCCESS	
+11:24:03,6766246	parent.exe	40504	CreateFile	C:\OSi\lab2	SUCCESS	Desired Access: Execute/Traverse, Synchronize, Disposition: Open, Options: Directory, Synchronous IO Non-Alert, Attributes: n/a, ShareMode: Read, Write, AllocationSize: n/a, OpenResult: Opened
+11:24:08,3968844	parent.exe	40504	CreateFile	C:\OSi\lab2\child.exe	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,3969236	parent.exe	40504	CloseFile	C:\OSi\lab2\child.exe	SUCCESS	
+11:24:08,3971133	parent.exe	40504	CreateFile	C:\OSi\lab2\child.exe	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,3971450	parent.exe	40504	CloseFile	C:\OSi\lab2\child.exe	SUCCESS	
+11:24:08,3977662	parent.exe	40504	CreateFile	C:\OSi\lab2\child.exe	SUCCESS	Desired Access: Read Data/List Directory, Execute/Traverse, Read Attributes, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: N, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4161925	parent.exe	40504	Process Create	C:\OSi\lab2\child.exe	SUCCESS	PID: 36212, Command line: "child.exe" "result.txt"
+11:24:08,4166985	parent.exe	40504	CreateFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4167696	parent.exe	40504	CloseFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	
+11:24:08,4170833	parent.exe	40504	CreateFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4171416	parent.exe	40504	CloseFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	
+11:24:08,4173594	parent.exe	40504	CreateFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4173965	parent.exe	40504	CloseFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	
+11:24:08,4174898	parent.exe	40504	CreateFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4175314	parent.exe	40504	CloseFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	
+11:24:08,4177057	parent.exe	40504	CreateFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4177477	parent.exe	40504	CloseFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	
+11:24:08,4178474	parent.exe	40504	CreateFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4178806	parent.exe	40504	CloseFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	
+11:24:08,4182545	parent.exe	40504	CreateFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4182972	parent.exe	40504	CloseFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	
+11:24:08,4184130	parent.exe	40504	CreateFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4184596	parent.exe	40504	CloseFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	
+11:24:08,4186572	parent.exe	40504	CreateFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4187074	parent.exe	40504	CloseFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	
+11:24:08,4188145	parent.exe	40504	CreateFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	Desired Access: Generic Read, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: N, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4200625	parent.exe	40504	CloseFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	
+11:24:08,4225261	parent.exe	40504	CreateFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4225726	parent.exe	40504	CloseFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	
+11:24:08,4228414	parent.exe	40504	CreateFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4228914	parent.exe	40504	CloseFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	
+11:24:08,4230944	parent.exe	40504	CreateFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4231277	parent.exe	40504	CloseFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	
+11:24:08,4232300	parent.exe	40504	CreateFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4232737	parent.exe	40504	CloseFile	C:\Windows\apppatch\sysmain.sdb	SUCCESS	
+11:24:08,4234444	parent.exe	40504	CreateFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4234873	parent.exe	40504	CloseFile	C:\Windows\apppatch\MergeSdbFilesSource\sysMerge.sdb	SUCCESS	
+11:24:08,4235764	parent.exe	40504	CreateFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:08,4236043	parent.exe	40504	CloseFile	C:\Windows\apppatch\01DD4535D3EA856C.sysmain.sdb	SUCCESS	
+11:24:08,4237046	parent.exe	40504	CloseFile	C:\OSi\lab2\child.exe	SUCCESS	
+11:24:09,7865227	parent.exe	40504	CreateFile	C:\Windows\System32\kernel.appcore.dll	SUCCESS	Desired Access: Read Attributes, Disposition: Open, Options: Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:09,7865707	parent.exe	40504	CloseFile	C:\Windows\System32\kernel.appcore.dll	SUCCESS	
+11:24:09,7867040	parent.exe	40504	CreateFile	C:\Windows\System32\kernel.appcore.dll	SUCCESS	Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened
+11:24:09,7871381	parent.exe	40504	CloseFile	C:\Windows\System32\kernel.appcore.dll	SUCCESS	
+11:24:09,7876082	parent.exe	40504	CreateFile	C:	SUCCESS	Desired Access: Generic Read/Write, Disposition: OpenIf, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: N, ShareMode: Read, Write, AllocationSize: 0, OpenResult: Opened
+11:24:09,7876652	parent.exe	40504	CloseFile	C:	SUCCESS	
+11:24:09,7878037	parent.exe	40504	CloseFile	C:\OSi\lab2	SUCCESS	
